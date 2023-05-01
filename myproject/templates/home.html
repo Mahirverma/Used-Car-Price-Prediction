@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p>Used Car Price Prediction</p>
+    <form action="{{ url_for('predict') }}" method="post">
+        <input type="text" name="name" placeholder="Name" required="required" />
+        <input type="text" name="location" placeholder="Location" required="required" />
+        <input type="text" name="fuel_type" placeholder="Fuel Type" required="required" />
+        <input type="text" name="transmission" placeholder="Transmission" required="required" />
+        <input type="text" name="brand" placeholder="Brand" required="required" />
+        <input type="text" name="owner_type" placeholder="Owner Type" required="required" />
+        <input type="number" name="year" placeholder="Year" required="required" />
+        <input type="number" name="kilometers_driven" placeholder="Kilometers Driven" required="required" />
+        <input type="number" name="mileage" placeholder="Mileage" required="required" />
+        <input type="number" name="engine" placeholder="Engine" required="required" />
+        <input type="number" name="power" placeholder="Power" required="required" />
+        <input type="number" name="seats" placeholder="Seats" required="required" />
+        <button type="submit">Predict</button>
+    </form>    
+</body>
+</html>
