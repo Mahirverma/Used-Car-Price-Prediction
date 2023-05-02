@@ -10,6 +10,10 @@
 <h1>Model Used</h1>
 <p>Random Forest Regressor model is used in the above API. This model is used to predict the data as it works well with number type data.</p>
 <br><br>
+<h1>About Training data</h1>
+<p>Raw data was taken from the 'Kaggle' website. This data included 12 Features:Name, Location, Fuel Type, Transmission, Owner Type(First,Second,etc), Year(in which it was bought), Kilometers Driven, Mileage, Engine, Power, Seats and Price of the car. Our target feature is Price of the car which we have to predict. Link of the raw data is provided below to check. </p>
+<a href="https://www.kaggle.com/datasets/avikasliwal/used-cars-price-prediction">Link</a>
+<br><br>
 <h1>How categorial data was dealt?</h1>
 <p>Binary Encoder function was used to deal with the categorial data. It conversts our aplhabetical data into a binary code series and trained accordingly to convert 
    any other categorial data.</p>
