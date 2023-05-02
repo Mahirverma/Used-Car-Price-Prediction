@@ -16,4 +16,13 @@
 <br><br>
 <h1>How was data normalize?</h1>
 <p>Data was normalize by using another function known as Power Transoformer which will normalize the data equally to enhance the performance of the prediction model.</p>
+<br><br>
+<h1>Technology Used</h1>
+<p>Technologies and libraries used in the above Project are:
+   <ol>
+      <li>Python Flask - for the API</li>
+      <li>Python(libraries: Numpy, Pandas, Sklearn, Seaborn) - for the prediction Model</li>
+      <li>Python(library: Pickle) - for deploying model into API</li>
+   </ol>
+     
   
