@@ -12,7 +12,7 @@
 <br><br>
 <h1>About Training data</h1>
 <p>Raw data was taken from the 'Kaggle' website. This data included 12 Features:Name, Location, Fuel Type, Transmission, Owner Type(First,Second,etc), Year(in which it was bought), Kilometers Driven, Mileage, Engine, Power, Seats and Price of the car. Our target feature is Price of the car which we have to predict. Link of the raw data is provided below to check. </p>
-<a href="https://www.kaggle.com/datasets/avikasliwal/used-cars-price-prediction">Link</a>
+<a href="https://www.kaggle.com/datasets/avikasliwal/used-cars-price-prediction">Raw Data</a>
 <br><br>
 <h1>How categorial data was dealt?</h1>
 <p>Binary Encoder function was used to deal with the categorial data. It conversts our aplhabetical data into a binary code series and trained accordingly to convert 
