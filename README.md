@@ -1,6 +1,6 @@
 # Used-Car-Price-Prediction
 <br><br><h1>Introduction</h1>
-<p>This is project is based on the deployment of a machine learning model in API to predict the price of the used car.</p>
+<p>This project is based on the deployment of a machine learning model in API to predict the price of the used car.</p>
 <p>It will  work on the basis of 12 features: Brand, Name, Location, Fuel Type, Transmission, Owner Type(First,Second,etc), Year(in which it was bought), Kilometers 
    Driven, Mileage, Engine, Power and Seats.</p>
 <br><br>
